@@ -8,11 +8,11 @@ import LuxuryCta from "@/components/LuxuryCta";
 export const metadata: Metadata = {
   title: "About Briana, RN | Aesthetic Injector in Melissa, TX",
   description:
-    "Meet Briana, a Registered Nurse with over 11 years as a registered nurse and certified in advanced neuromodulator and filler techniques, serving Melissa, TX and the surrounding area.",
+    "Meet Briana, a Registered Nurse with over 11 years as a Registered Nurse and certified in advanced neuromodulator and filler techniques, serving Melissa, TX and the surrounding area.",
 };
 
 const HIGHLIGHTS = [
-  "Registered Nurse — over 11 years as a registered nurse",
+  "Registered Nurse — over 11 years as a Registered Nurse",
   "Certified in advanced neuromodulator and filler techniques",
   "2+ years performing aesthetic injections",
   "Committed to ongoing continuing education",
@@ -34,26 +34,16 @@ export default function AboutPage() {
             </h1>
             <div className="my-8 h-px w-24 bg-ink/20" />
             <p className="font-body text-base leading-relaxed text-stone">
-              Briana is a Registered Nurse with over 11 years as a registered nurse who has
-              built her aesthetic practice on a simple belief: the best results are
-              the ones nobody can quite put their finger on. Certified in advanced neuromodulator and filler techniques
-              and more than two years dedicated
-              to aesthetic injections, she brings both clinical precision and a
-              genuine artistic eye to every appointment.
+              Briana is a Registered Nurse with over 11 years as a Registered Nurse and also certified in advanced neuromodulator and filler techniques.
+              With a background in emergency medicine and more than two years dedicated to aesthetic injections, she brings both clinical precision and a genuine artistic eye to every appointment.
             </p>
             <p className="mt-5 font-body text-base leading-relaxed text-stone">
-              Her philosophy is to enhance natural beauty while preserving each
-              patient's unique facial features — never chasing trends, always
-              prioritizing safety, education, and results that look like you, only
-              refreshed. Every treatment plan is built individually, with an emphasis
-              on conservative technique and long-term patient relationships over
-              one-off transactions.
+              Her philosophy is to enhance natural beauty while preserving each patient's unique facial features — never chasing trends, always prioritizing safety, education, and results that look like you, only refreshed. Every treatment plan is built individually, with an emphasis on conservative technique and long-term patient relationships over one-off transactions.
             </p>
             <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary mt-10 inline-flex">
               Book a Consultation
             </a>
           </div>
-
           <div className="relative aspect-[4/5] w-full overflow-hidden bg-ivory">
             <Image
               src="/images/briana-hero.jpg"
@@ -85,20 +75,16 @@ export default function AboutPage() {
         <div className="container-luxury max-w-3xl text-center">
           <p className="eyebrow">Our Philosophy</p>
           <h2 className="h-display mt-5 text-3xl md:text-4xl">
-            "Enhance natural beauty while preserving each patient's unique facial
-            features."
+            "Enhance natural beauty while preserving each patient's unique facial features."
           </h2>
           <p className="mt-8 font-body text-base leading-relaxed text-stone">
-            Patients should leave looking refreshed — not overdone. That standard
-            guides every recommendation, every product choice, and every unit of
-            product used at Sculpted Beauty by Briana.
+            Patients should leave looking refreshed — not overdone. That standard guides every recommendation, every product choice, and every unit of product used at Sculpted Beauty by Briana.
           </p>
           <Link href="/services" className="btn-secondary mt-10 inline-flex">
             Explore Our Services
           </Link>
         </div>
       </section>
-
       <LuxuryCta />
     </>
   );
