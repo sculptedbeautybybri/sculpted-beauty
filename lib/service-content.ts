@@ -13,7 +13,7 @@ export interface ServicePageContent {
 export const SERVICE_CONTENT: Record<string, ServicePageContent> = {
   "wrinkle-relaxers": {
     slug: "wrinkle-relaxers",
-    name: "Wrinkle Relaxers",
+    name: "Tox",
     eyebrow: "Jeuveau & Daxxify",
     intro:
       "Wrinkle relaxers temporarily soften the appearance of expression lines by relaxing the underlying muscle movement that causes them. Briana offers both Jeuveau and Daxxify, tailoring product choice and dosing to your facial anatomy and goals.",
