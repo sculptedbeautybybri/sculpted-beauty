@@ -39,20 +39,23 @@ export type ServiceSlug =
   | "wrinkle-relaxers"
   | "dermal-fillers"
   | "ultra-laser"
+  | "skinpen-microneedling"
+  | "medical-grade-skincare"
   | "hair-restoration"
-  | "medical-grade-skincare";
+  | "annual-plan";
 
 export interface ServiceSummary {
   slug: ServiceSlug;
   name: string;
   shortDescription: string;
   keywords: string[];
+  href?: string;
 }
 
 export const SERVICES: ServiceSummary[] = [
   {
     slug: "wrinkle-relaxers",
-    name: "Wrinkle Relaxers",
+    name: "Tox",
     shortDescription:
       "Jeuveau and Daxxify treatments that soften expression lines while preserving natural movement.",
     keywords: ["Botox Melissa TX", "Jeuveau Melissa TX", "Daxxify Melissa TX"],
@@ -62,27 +65,43 @@ export const SERVICES: ServiceSummary[] = [
     name: "Dermal Fillers",
     shortDescription:
       "Lip, cheek, jawline, and chin filler for subtle facial balancing and natural-looking volume.",
-    keywords: ["Dermal Fillers Melissa TX", "Lip Filler Melissa TX"],
+    keywords: ["Lip Filler Melissa TX", "Cheek Filler Melissa TX", "Jawline Filler Melissa TX"],
   },
   {
     slug: "ultra-laser",
     name: "Ultra Laser",
     shortDescription:
       "Lutronic ULTRA skin renewal: corrective series of 3 for $1,200, or quarterly maintenance for $450.",
-    keywords: ["Ultra Laser Melissa TX", "Laser Skin Rejuvenation Melissa TX"],
+    keywords: ["Lutronic ULTRA Melissa TX", "Laser Skin Renewal Melissa TX"],
   },
   {
-    slug: "hair-restoration",
-    name: "Hair Restoration",
+    slug: "skinpen-microneedling",
+    name: "SkinPen Microneedling",
     shortDescription:
-      "KeraFactor Hair Restoration, $299 per session, 6 sessions spaced 3-4 weeks apart, with LaseMD Ultra laser and KeraFactor serum.",
-    keywords: ["Keralase Melissa TX", "Hair Restoration Melissa TX", "KeraFactor Melissa TX"],
+      "SkinPen microneedling, a second option after ULTRA for texture or scarring: a series of 3 for $900, or a single quarterly maintenance visit for $350.",
+    keywords: ["SkinPen Melissa TX", "Microneedling Melissa TX"],
+    href: "/#skin-first",
   },
   {
     slug: "medical-grade-skincare",
     name: "Medical Grade Skincare",
     shortDescription:
       "Epionce and Hydrinity regimens curated to extend and protect your in-office results.",
-    keywords: ["Epionce Melissa TX", "Hydrinity Melissa TX"],
+    keywords: ["Epionce Melissa TX", "Hydrinity Melissa TX", "Medical Grade Skincare Melissa TX"],
+  },
+  {
+    slug: "hair-restoration",
+    name: "Hair Restoration",
+    shortDescription:
+      "KeraFactor Hair Restoration, $299 per session, 6 sessions spaced 3-4 weeks apart, with LaseMD Ultra laser and KeraFactor serum.",
+    keywords: ["Hair Restoration Melissa TX", "KeraFactor Melissa TX"],
+  },
+  {
+    slug: "annual-plan",
+    name: "Annual Plan",
+    shortDescription:
+      "A 12-month package of tox, skincare, laser, and filler, plus a free ULTRA package — see the Annual Plan section on the homepage.",
+    keywords: ["Annual Plan Melissa TX"],
+    href: "/#annual-plan",
   },
 ];
