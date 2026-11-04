@@ -1,27 +1,21 @@
 import type { Metadata } from "next";
-import GoogleReviews from "@/components/GoogleReviews";
-import LuxuryCta from "@/components/LuxuryCta";
+import { BUSINESS, BOOKING_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Patient Reviews",
-  description:
-    "Read what patients are saying about their experience at Sculpted Beauty by Briana in Melissa, TX.",
+  description: "Sculpted Beauty by Briana in Melissa, TX — 5.0 stars from 43 Google reviews.",
 };
 
 export default function ReviewsPage() {
   return (
-    <>
-      <section className="bg-paper pb-4 pt-14 md:pt-20">
-        <div className="container-luxury max-w-2xl">
-          <p className="eyebrow">Patient Experience</p>
-          <h1 className="h-display mt-5 text-5xl md:text-6xl">Reviews</h1>
-          <p className="mt-6 font-body text-base leading-relaxed text-stone">
-            Boutique care, built one patient relationship at a time.
-          </p>
-        </div>
-      </section>
-      <GoogleReviews />
-      <LuxuryCta />
-    </>
+    <main className="mx-auto max-w-5xl px-6 py-14">
+      <h1 className="text-4xl font-semibold">Reviews</h1>
+      <p className="mt-4 text-base leading-relaxed text-neutral-700">Boutique care, built one patient relationship at a time.</p>
+      <p className="mt-4 text-base leading-relaxed text-neutral-700">What clients say: 5.0 stars from 43 Google reviews.</p>
+      <div className="mt-8 flex flex-wrap gap-4">
+        <a href={BUSINESS.social.googleReviews} className="inline-block bg-black px-6 py-3 text-sm font-semibold text-white">Read all Google reviews</a>
+        <a href={BOOKING_URL} className="inline-block border border-black px-6 py-3 text-sm font-semibold">Book a free consultation</a>
+      </div>
+    </main>
   );
 }
