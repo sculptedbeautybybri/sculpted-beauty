@@ -1,27 +1,24 @@
 export const BUSINESS = {
   name: "Sculpted Beauty by Briana",
-  owner: "Briana, RN",
-  tagline: "Expert Injectables. Naturally Beautiful Results.",
+  owner: "Briana Scribner, BSN, RN",
+  tagline: "Refined results. Personalized care.",
   city: "Melissa",
   state: "TX",
   serviceArea: ["Melissa", "Anna", "McKinney", "Prosper", "Celina", "Frisco"],
-  phone: "(972) 555-0148", // placeholder — replace with real number
-  email: "hello@sculptedbeautybybriana.com", // placeholder — replace with real inbox
-  addressLine: "Melissa, TX", // placeholder — replace with real suite address
+  phone: "(972) 658-2845",
+  email: "hello@sculptedbeautybybriana.com",
+  addressLine: "1521 McKinney St, Suite 300, Melissa, TX 75454",
   hours: [
-    { day: "Monday", hours: "By Appointment" },
-    { day: "Tuesday", hours: "10:00 AM – 6:00 PM" },
-    { day: "Wednesday", hours: "10:00 AM – 6:00 PM" },
-    { day: "Thursday", hours: "10:00 AM – 6:00 PM" },
-    { day: "Friday", hours: "9:00 AM – 4:00 PM" },
-    { day: "Saturday", hours: "By Appointment" },
-    { day: "Sunday", hours: "Closed" },
+    { day: "Tuesday", hours: "9:00 AM – 6:00 PM" },
+    { day: "Wednesday", hours: "9:00 AM – 6:00 PM" },
+    { day: "Thursday", hours: "9:00 AM – 6:00 PM" },
+    { day: "Friday", hours: "9:00 AM – 6:00 PM" },
   ],
   social: {
     instagram: "https://www.instagram.com/briana_rninjector",
     instagramHandle: "@briana_rninjector",
-    facebook: "https://www.facebook.com/share/1DDAK2Q8S7/",
-    googleReviews: "https://share.google/xJCXJsbLcKfZ67MNp",
+    facebook: "https://www.facebook.com/share/1DDAK2Q857/",
+    googleReviews: "https://share.google/xJCXJsbLckfZ67MNp",
   },
 };
 
@@ -43,7 +40,6 @@ export type ServiceSlug =
   | "dermal-fillers"
   | "ultra-laser"
   | "hair-restoration"
-  | "iv-therapy"
   | "medical-grade-skincare";
 
 export interface ServiceSummary {
@@ -72,22 +68,15 @@ export const SERVICES: ServiceSummary[] = [
     slug: "ultra-laser",
     name: "Ultra Laser",
     shortDescription:
-      "Advanced laser rejuvenation for texture, tone, and pigmentation with minimal downtime.",
+      "Lutronic ULTRA skin renewal: corrective series of 3 for $1,200, or quarterly maintenance for $450.",
     keywords: ["Ultra Laser Melissa TX", "Laser Skin Rejuvenation Melissa TX"],
   },
   {
     slug: "hair-restoration",
     name: "Hair Restoration",
     shortDescription:
-      "KeraLase — KeraFactor paired with Ultra and red light therapy — to help support fuller, healthier-looking hair.",
+      "KeraFactor Hair Restoration, $299 per session, 6 sessions spaced 3-4 weeks apart, with LaseMD Ultra laser and KeraFactor serum.",
     keywords: ["Keralase Melissa TX", "Hair Restoration Melissa TX", "KeraFactor Melissa TX"],
-  },
-  {
-    slug: "iv-therapy",
-    name: "IV Therapy",
-    shortDescription:
-      "Physician-formulated IV blends for hydration, energy, recovery, and immune support.",
-    keywords: ["IV Therapy Melissa TX", "IV Hydration Melissa TX"],
   },
   {
     slug: "medical-grade-skincare",
