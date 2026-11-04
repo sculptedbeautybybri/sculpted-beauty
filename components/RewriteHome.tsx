@@ -82,7 +82,7 @@ export default function RewriteHome() {
         <p>More products are available — Evolysse, Restylane, and RHA are offered at the same price as Juvederm, and you can ask about them at your visit.</p>
       </Section>
       <Section id="skincare" eyebrow="Skincare" title="Skincare">
-        <p>The full Hydrinity line and the full Epionce line are carried in-office. Your visit includes guidance on what fits your skin — no need to guess from a shelf.</p><div><a href="https://www.joinblvd.com/b/sculpted-beauty-by-briana/widget#/cart/menu/Retail" target="_blank" rel="noreferrer" className="inline-block bg-black px-6 py-3 text-sm font-semibold tracking-wide text-white">Shop Skincare</a></div></p>
+        <p>The full Hydrinity line and the full Epionce line are carried in-office. Your visit includes guidance on what fits your skin — no need to guess from a shelf.</p><div><a href="https://www.joinblvd.com/b/sculpted-beauty-by-briana/widget#/cart/menu/Retail" target="_blank" rel="noreferrer" className="inline-block bg-black px-6 py-3 text-sm font-semibold tracking-wide text-white">Shop Skincare</a></div>
       </Section>
       <Section id="hair-restoration" eyebrow="Hair Restoration" title="Hair Restoration">
         <p>Hair thinning needs a different kind of care — a plan that treats the scalp and the hair follicles, not just the strands.</p>
