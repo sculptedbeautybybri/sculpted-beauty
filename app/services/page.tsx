@@ -7,7 +7,7 @@ import LuxuryCta from "@/components/LuxuryCta";
 export const metadata: Metadata = {
   title: "Aesthetic Services in Melissa, TX",
   description:
-    "Explore Sculpted Beauty by Briana's boutique menu of aesthetic services: Jeuveau, Daxxify, dermal fillers, Ultra Laser, IV therapy, and medical grade skincare.",
+    "Explore Sculpted Beauty by Briana's boutique menu of aesthetic services: Jeuveau, Daxxify, dermal fillers, Lutronic ULTRA laser, medical-grade skincare, and hair restoration.",
 };
 
 export default function ServicesPage() {
@@ -24,13 +24,12 @@ export default function ServicesPage() {
           </p>
         </div>
       </section>
-
       <section className="bg-paper pb-24 md:pb-32">
         <div className="container-luxury grid grid-cols-1 gap-px overflow-hidden bg-ink/10 md:grid-cols-2">
           {SERVICES.map((service, i) => (
             <Link
               key={service.slug}
-              href={`/services/${service.slug}`}
+              href={service.href ?? `/services/${service.slug}`}
               className="group flex min-h-[260px] flex-col justify-between bg-paper p-10 transition-colors duration-500 hover:bg-ink md:p-12"
             >
               <div>
@@ -51,7 +50,6 @@ export default function ServicesPage() {
           ))}
         </div>
       </section>
-
       <LuxuryCta />
     </>
   );
