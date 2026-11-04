@@ -42,12 +42,12 @@ export default function RewriteHome() {
   return (
     <main>
       <section className="mx-auto max-w-5xl px-6 py-16 text-center">
-        <p className="mx-auto mb-8 max-w-3xl text-lg leading-relaxed text-neutral-700">Sculpted Beauty by Briana has a boutique vibe, offering medspa services by a single provider, Briana Scribner, BSN, RN, with over 11 years as a registered nurse and also certified in advanced neuromodulator and filler techniques.</p>
         <h1 className="text-4xl font-semibold md:text-5xl">Sculpted Beauty by Briana — Melissa, TX</h1>
         <p className="mt-4 text-xl text-neutral-700">Refined results. Personalized care.</p>
         <div className="mt-8">
           <BookButton label="Book a free consultation" />
         </div>
+        <p className="mx-auto mt-8 max-w-3xl text-lg leading-relaxed text-neutral-700">Sculpted Beauty by Briana has a boutique vibe, offering medspa services by a single provider, Briana Scribner, BSN, RN, with over 11 years as a registered nurse and also certified in advanced neuromodulator and filler techniques.</p>
       </section>
       <Section id="what-to-expect" eyebrow="What to expect at your visit" title="What to expect at your visit">
         <ol className="list-decimal space-y-4 pl-6">
