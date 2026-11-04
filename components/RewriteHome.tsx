@@ -47,7 +47,7 @@ export default function RewriteHome() {
         <div className="mt-8">
           <BookButton label="Book a free consultation" />
         </div>
-        <p className="mx-auto mt-8 max-w-3xl text-lg leading-relaxed text-neutral-700">Sculpted Beauty by Briana has a boutique vibe, offering medspa services by a single provider, Briana Scribner, BSN, RN, with over 11 years as a registered nurse and also certified in advanced neuromodulator and filler techniques.</p>
+        <p className="mx-auto mt-8 max-w-3xl text-lg leading-relaxed text-neutral-700">Sculpted Beauty by Briana has a boutique vibe, offering medspa services by a single provider, Briana Scribner, BSN, RN, with over 11 years as a Registered Nurse and also certified in advanced neuromodulator and filler techniques.</p>
       </section>
       <Section id="what-to-expect" eyebrow="What to expect at your visit" title="What to expect at your visit">
         <ol className="list-decimal space-y-4 pl-6">
@@ -100,7 +100,7 @@ export default function RewriteHome() {
         <p><a href={CHERRY} className="underline" target="_blank" rel="noreferrer">Cherry financing</a>, Affirm, Klarna, Afterpay, Apple Pay, Venmo, and Cash are all accepted. For Affirm, Klarna, and Afterpay, a payment link will be sent to you at checkout. You can also use your available purchasing power for those methods with Tap to Pay.</p>
       </Section>
       <Section id="plan-your-visit" eyebrow="Plan your visit" title="Plan your visit">
-        <p><strong>About:</strong> Sculpted Beauty by Briana has a boutique vibe, offering medspa services by a single provider, Briana Scribner, BSN, RN, with over 11 years as a registered nurse and also certified in advanced neuromodulator and filler techniques.</p>
+        <p><strong>About:</strong> Sculpted Beauty by Briana has a boutique vibe, offering medspa services by a single provider, Briana Scribner, BSN, RN, with over 11 years as a Registered Nurse and also certified in advanced neuromodulator and filler techniques.</p>
         <p><strong>Hours:</strong> Tuesday through Friday, 9am to 6pm, at 1521 McKinney St, Suite 300, Melissa, TX 75454. Phone: <a href="tel:+19726582845" className="underline">(972) 658-2845</a>.</p>
         <p><strong>After-hours:</strong> visits are possible when availability allows, with an additional $100 charge.</p>
         <p><strong>Booking:</strong> free consultation, same-day treatment often possible — <a href={BOOK} className="underline">Book a visit</a>.</p>
