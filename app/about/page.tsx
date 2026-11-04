@@ -8,12 +8,12 @@ import LuxuryCta from "@/components/LuxuryCta";
 export const metadata: Metadata = {
   title: "About Briana, RN | Aesthetic Injector in Melissa, TX",
   description:
-    "Meet Briana, a Registered Nurse with 11 years of nursing experience and advanced certification in cosmetic injectables, serving Melissa, TX and the surrounding area.",
+    "Meet Briana, a Registered Nurse with over 11 years as a registered nurse and certified in advanced neuromodulator and filler techniques, serving Melissa, TX and the surrounding area.",
 };
 
 const HIGHLIGHTS = [
-  "Registered Nurse — 11 years of nursing experience",
-  "Advanced Injector Certification in cosmetic injectables",
+  "Registered Nurse — over 11 years as a registered nurse",
+  "Certified in advanced neuromodulator and filler techniques",
   "2+ years performing aesthetic injections",
   "Committed to ongoing continuing education",
   "Boutique, one-on-one patient care",
@@ -34,10 +34,10 @@ export default function AboutPage() {
             </h1>
             <div className="my-8 h-px w-24 bg-ink/20" />
             <p className="font-body text-base leading-relaxed text-stone">
-              Briana is a Registered Nurse with 11 years of nursing experience who has
+              Briana is a Registered Nurse with over 11 years as a registered nurse who has
               built her aesthetic practice on a simple belief: the best results are
-              the ones nobody can quite put their finger on. With advanced
-              certification in cosmetic injectables and more than two years dedicated
+              the ones nobody can quite put their finger on. Certified in advanced neuromodulator and filler techniques
+              and more than two years dedicated
               to aesthetic injections, she brings both clinical precision and a
               genuine artistic eye to every appointment.
             </p>
